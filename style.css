@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+:root {
+
+    /*CORES*/
+    --cor-de-fundo: #090B1A;
+    --cor-de-fundo-secundaria: #1B1938;
+    --cor-fonte-branca: #FFFFFF;
+    --cor-fonte-cinza: #808080;
+    --cor-fonte-imagem: #AA5CDB; 
+    
+    /*FONTES*/
+    --fonte-titulo-info-numeros: 'Inter', sans-serif;
+    --fonte-paragrafo-info-texto: 'Lexend Deca', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: var(--cor-de-fundo); 
+}
+
+header {
+    background-color: var(--cor-de-fundo-secundaria);
+    margin: 7% 15% 7% 10%;
+    display: flex; 
+    border-radius:  3% 3% 3% 3%;
+}
+
+.container {
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+strong {
+    color: var(--cor-fonte-imagem);
+}
+
+.container-informacoes {
+    display: flex;
+    justify-content: space-between;
+    margin: 18% 10% 5% 10%; 
+}
+
+.titulo {
+    font-family: var(--fonte-titulo-info-numeros);
+    color: var(--cor-fonte-branca);
+    margin: 10%;
+    font-size: 30px;
+}
+
+.paragrafo {
+    font-family: var(--fonte-paragrafo-info-texto);
+    color: var(--cor-fonte-cinza);
+    font-size: 15px;
+    margin: 0% 10%;
+    text-align: justify;
+}
+
+.informacoes-numeros {
+    font-family: var(--fonte-titulo-info-numeros);
+    color: var(--cor-fonte-branca);
+    font-size: 20px;
+}
+
+.informacoes-texto {
+    font-family: var(--fonte-paragrafo-info-texto);
+    color: var(--cor-fonte-cinza);
+    font-size: 13px;
+}
+
+.imagem {
+    border-radius: 0 3% 3% 0;
+    flex-direction: row;
+    filter: var(--cor-fonte-imagem);
+}
+
+.container-informacoes-companies {
+    margin-right: 10%;
+}
+
+.container-informacoes-queries {
+    margin-left: 10%;
+}
