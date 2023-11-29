@@ -85,3 +85,35 @@ strong {
 .container-informacoes-queries {
     margin-left: 10%;
 }
+
+@media(max-width: 970px)  {
+    header{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        margin-top: 80px;
+    }
+
+    .titulo{
+        font-size: 23px;
+        text-align: center;
+    }
+    
+    .paragrafo{
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .container-informacoes{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .container-informacoes-companies, 
+    .container-informacoes-templates, 
+    .container-informacoes-queries {
+        align-self: center;
+        margin: 20px;
+    } 
+}
