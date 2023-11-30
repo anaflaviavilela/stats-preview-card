@@ -42,7 +42,10 @@ strong {
 .container-informacoes {
     display: flex;
     justify-content: space-between;
-    margin: 18% 10% 5% 10%; 
+    margin-top: 18%;
+    margin-bottom: 15%;
+    margin-right: 15px;
+    margin-left: 10%;
 }
 
 .titulo {
@@ -57,7 +60,6 @@ strong {
     color: var(--cor-fonte-cinza);
     font-size: 15px;
     margin: 0% 10%;
-    text-align: justify;
 }
 
 .informacoes-numeros {
@@ -92,6 +94,8 @@ strong {
         flex-direction: column-reverse;
         justify-content: center;
         margin-top: 80px;
+        margin-left: 40px;
+        margin-right: 40px;
     }
 
     .titulo{
@@ -111,9 +115,19 @@ strong {
     }
 
     .container-informacoes-companies, 
-    .container-informacoes-templates, 
-    .container-informacoes-queries {
+    .container-informacoes-templates{
         align-self: center;
         margin: 20px;
     } 
+
+    .container-informacoes-queries{
+        align-self: center;
+        margin-top: 20px;
+        margin-right: 40px;
+    }
+
+    .imagem {
+        border-radius: 3% 3% 3% 3%;
+    }
+    
 }
